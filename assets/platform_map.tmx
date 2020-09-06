@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="left-down" width="20" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="24">
+ <tileset firstgid="1" source="platform-tiles-64.tsx"/>
+ <imagelayer id="2" name="Background" locked="1">
+  <image source="background.png" width="1280" height="640"/>
+ </imagelayer>
+ <layer id="1" name="Tiles" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIMACxKxAzEaBfkJ6YXYgY3LtIwZwU9ksTiqbJYFDnhGImbBgZgJmSeDQiyyPjLmIUAsA4tABwg==
+  </data>
+ </layer>
+ <objectgroup id="4" name="PhysicsData" locked="1">
+  <object id="12" x="705" y="258" width="380" height="33"/>
+  <object id="13" x="385" y="194" width="188" height="35"/>
+  <object id="14" x="128" y="257" width="125" height="32"/>
+  <object id="15" x="-1" y="578" width="1279" height="62"/>
+  <object id="16" x="1154" y="384" width="126" height="62"/>
+  <object id="17" x="1217" y="321" width="61" height="62"/>
+  <object id="18" x="1090" y="449" width="188" height="61"/>
+  <object id="19" x="1025" y="514" width="253" height="60"/>
+  <object id="20" x="322" y="515" width="444" height="61"/>
+  <object id="21" x="1280" y="1" width="27" height="639"/>
+  <object id="22" x="-24" y="0" width="24" height="639"/>
+  <object id="23" x="-23" y="-27" width="1330" height="24"/>
+ </objectgroup>
+ <objectgroup id="3" name="ObjectData" locked="1">
+  <object id="1" name="player" x="149" y="519" width="38" height="47"/>
+  <object id="2" name="coin" x="156" y="232"/>
+  <object id="3" name="coin" x="226" y="231"/>
+  <object id="4" name="coin" x="417" y="168"/>
+  <object id="5" name="coin" x="479" y="169"/>
+  <object id="6" name="coin" x="540" y="168"/>
+  <object id="7" name="coin" x="803" y="225"/>
+  <object id="8" name="coin" x="866" y="225"/>
+  <object id="9" name="coin" x="932" y="224"/>
+  <object id="10" name="coin" x="996" y="224"/>
+  <object id="11" name="coin" x="1238" y="281"/>
+ </objectgroup>
+</map>
